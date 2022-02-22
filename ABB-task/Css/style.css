@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-all-header a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    
+}
+
+.left-header{
+    width: 100%;
+    
+    
+    
+}
+
+#lang{
+    border-style: none;
+}
+
+.div-all-header{
+    background-color: #F6F7F8;
+    padding: 15px;
+    font-size: 15px;
+   
+    
+}
+
+.section3-header a{
+    text-decoration: none;
+    color: black;
+    margin-right: 8px;
+}
+
+.sidebar-header{
+    overflow-x: auto;
+    
+}
+
+.sidebar-top{
+    background-color: #0056C1;
+    width: 100%;
+    height: 35px;
+
+}
+
+
+
+.left-header-phone{
+    display: none;
+}
+
+.item a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: gray;
+}
+#botm{
+    opacity: 0;
+}
+#close{
+    position: absolute;
+    right: 20px;
+    opacity: 0;
+}
+.help{
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    opacity: 0;
+}
+#icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+#axtaris{
+    cursor: pointer;
+    
+}
+#section2{
+    transition: 0.3s;
+    opacity: 1;
+}
+.x-icon{
+    cursor: pointer;
+}
+.ferdi{
+    word-spacing: 5px;
+    
+}
+.ferdi a{
+    text-decoration: none;
+    color: black;
+}
+.right a{
+    color: blue;
+    text-decoration: none;
+}
+
+.right-mobile{
+    display: none;
+}
+@media (max-width: 1100px){
+    .left-header, .ferdi, .right, .section3-header{
+        display: none;
+    }
+    .img{
+        margin-bottom: 10px;
+    }
+    .left-header-phone{
+        position: absolute;
+        display: block;
+    }
+
+    .right-mobile{
+        
+        padding: 5px;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    .right-mobile a{
+        text-decoration: none;
+    }
+
+    #sidebar{
+        width: 0;
+        transition: 0.4s;
+        
+        
+    }
+
+    #int{
+        opacity: 0;
+        color: white;
+    }
+    
+    
+}
+
+.item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #F9F9F9;
+}
+@media (min-width: 1100px){
+    #sidebar{
+        display: none;
+    }
+}
